@@ -16,7 +16,7 @@ const About = () => {
                 <div className="bg-white rounded-lg shadow-lg p-6 max-w-sm">
                   <h3 className="text-xl font-semibold text-trilingue-purple mb-2">Professora Ana Bulek</h3>
                   <p className="text-trilingue-gray mb-4">
-                    Formada em Letras e com certificações internacionais em inglês e espanhol. Mais de 5 anos de experiência em ensino personalizado de idiomas.
+                    Licenciatura em Letras Português, Inglês e Espanhol. Com certificações internacionais em inglês e espanhol. Mais de 5 anos de experiência em ensino personalizado de idiomas.
                   </p>
                   <div className="flex space-x-2">
                     <div className="h-2 w-2 rounded-full bg-trilingue-purple"></div>

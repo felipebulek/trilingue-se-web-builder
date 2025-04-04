@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
             <a href="#home" className="flex items-center space-x-2">
-              <img src="/logo.png" alt="Trilíngue-se Logo" className="h-10 rounded-full" />
+              <img src="./logo.png" alt="Trilíngue-se Logo" className="h-10 rounded-full" />
               <span className="text-2xl font-bold">
                 Trilíngue<span className="text-trilingue-orange">-se</span>
               </span>
