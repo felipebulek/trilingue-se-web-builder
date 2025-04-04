@@ -33,8 +33,11 @@ const Navbar = () => {
     <nav className={`fixed w-full top-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'}`}>
       <div className="container flex justify-between items-center">
         {/* Logo */}
-        <a href="#home" className="text-xl md:text-2xl font-bold text-trilingue-blue">
-          Trilíngue<span className="text-trilingue-orange">-se</span>
+        <a href="#home" className="flex items-center space-x-2">
+          <img src="/logo.png" alt="Trilíngue-se Logo" className="h-10 md:h-12" />
+          <span className="text-xl md:text-2xl font-bold text-trilingue-purple">
+            Trilíngue<span className="text-trilingue-orange">-se</span>
+          </span>
         </a>
         
         {/* Desktop Navigation */}
@@ -43,13 +46,13 @@ const Navbar = () => {
             <a 
               key={link.name} 
               href={link.href}
-              className="font-medium text-gray-700 hover:text-trilingue-blue transition duration-300"
+              className="font-medium text-trilingue-gray hover:text-trilingue-purple transition duration-300"
             >
               {link.name}
             </a>
           ))}
           <Button 
-            className="bg-trilingue-orange hover:bg-trilingue-lightorange text-white"
+            className="bg-trilingue-orange hover:bg-trilingue-orange/80 text-white"
           >
             <a href="#contact">Agende uma Aula</a>
           </Button>
@@ -74,14 +77,14 @@ const Navbar = () => {
             <a 
               key={link.name} 
               href={link.href}
-              className="block py-2 font-medium text-gray-700 hover:text-trilingue-blue transition duration-300"
+              className="block py-2 font-medium text-trilingue-gray hover:text-trilingue-purple transition duration-300"
               onClick={() => setIsOpen(false)}
             >
               {link.name}
             </a>
           ))}
           <Button 
-            className="w-full mt-4 bg-trilingue-orange hover:bg-trilingue-lightorange text-white"
+            className="w-full mt-4 bg-trilingue-orange hover:bg-trilingue-orange/80 text-white"
             onClick={() => setIsOpen(false)}
           >
             <a href="#contact">Agende uma Aula</a>

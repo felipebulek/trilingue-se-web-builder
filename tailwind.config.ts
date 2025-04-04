@@ -53,13 +53,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				// Custom colors for Trilíngue-se
+				// Custom colors for Trilíngue-se with new color palette
 				trilingue: {
-					blue: '#1E88E5',
-					lightblue: '#64B5F6',
-					orange: '#FF9800',
-					lightorange: '#FFB74D',
-					gray: '#F5F5F5'
+					gray: '#5d5d5d',
+					mint: '#8bf6c3',
+					purple: '#b309c8',
+					yellow: '#fbff25',
+					orange: '#ffad65'
 				}
 			},
 			borderRadius: {

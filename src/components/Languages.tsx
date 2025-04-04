@@ -8,7 +8,7 @@ const Languages = () => {
       id: 'english',
       name: 'Inglês',
       icon: '🇺🇸',
-      color: 'bg-trilingue-blue',
+      color: 'bg-trilingue-purple',
       description: 'Desenvolva fluência no idioma mais falado no mundo dos negócios, tecnologia e turismo.',
       features: [
         'Conversação focada em situações reais',
@@ -33,10 +33,10 @@ const Languages = () => {
   ];
 
   return (
-    <section id="languages" className="section-padding bg-trilingue-gray">
+    <section id="languages" className="section-padding bg-trilingue-mint/10">
       <div className="container mx-auto">
         <h2 className="section-title">Nossos Idiomas</h2>
-        <p className="text-center text-gray-700 max-w-3xl mx-auto mb-12">
+        <p className="text-center text-trilingue-gray max-w-3xl mx-auto mb-12">
           Oferecemos cursos completos e personalizados em dois dos idiomas mais importantes do mundo. 
           Escolha o que melhor atende suas necessidades e objetivos.
         </p>
@@ -57,13 +57,13 @@ const Languages = () => {
                   {language.features.map((feature, index) => (
                     <li key={index} className="flex items-start">
                       <div className={`h-5 w-5 rounded-full ${language.color} flex items-center justify-center text-white text-xs mr-3 mt-0.5`}>✓</div>
-                      <span>{feature}</span>
+                      <span className="text-trilingue-gray">{feature}</span>
                     </li>
                   ))}
                 </ul>
               </CardContent>
               <CardFooter>
-                <Button className={`w-full ${language.id === 'english' ? 'bg-trilingue-blue hover:bg-trilingue-lightblue' : 'bg-trilingue-orange hover:bg-trilingue-lightorange'} text-white`}>
+                <Button className={`w-full ${language.id === 'english' ? 'bg-trilingue-purple hover:bg-trilingue-purple/80' : 'bg-trilingue-orange hover:bg-trilingue-orange/80'} text-white`}>
                   <a href="#contact">Saiba Mais</a>
                 </Button>
               </CardFooter>
@@ -73,10 +73,10 @@ const Languages = () => {
         
         <div className="mt-16 text-center">
           <h3 className="text-2xl font-semibold mb-4">Não sabe qual idioma escolher?</h3>
-          <p className="text-gray-700 max-w-2xl mx-auto mb-6">
+          <p className="text-trilingue-gray max-w-2xl mx-auto mb-6">
             Entre em contato para uma consulta gratuita onde podemos discutir seus objetivos e recomendar o melhor caminho para você.
           </p>
-          <Button className="bg-trilingue-blue hover:bg-trilingue-lightblue text-white">
+          <Button className="bg-trilingue-purple hover:bg-trilingue-purple/80 text-white">
             <a href="#contact">Agende uma Consulta Gratuita</a>
           </Button>
         </div>
