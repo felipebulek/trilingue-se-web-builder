@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className="container flex justify-between items-center">
         {/* Logo */}
         <a href="#home" className="flex items-center space-x-2">
-          <img src="/logo.png" alt="Trilíngue-se Logo" className="h-10 md:h-12" />
+          <img src="/logo.png" alt="Trilíngue-se Logo" className="h-10 md:h-12 rounded-full" />
           <span className="text-xl md:text-2xl font-bold text-trilingue-purple">
             Trilíngue<span className="text-trilingue-orange">-se</span>
           </span>
