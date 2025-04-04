@@ -11,7 +11,7 @@ const Hero = () => {
               Aprenda <span className="text-trilingue-purple">Inglês</span> e <span className="text-trilingue-orange">Espanhol</span> de forma eficaz
             </h1>
             <p className="text-lg md:text-xl text-trilingue-gray mb-8 max-w-lg">
-              Aulas particulares personalizadas para você atingir fluência mais rápido. Metodologia exclusiva adaptada ao seu perfil de aprendizado.
+              Aulas particulares personalizadas 100% online e ao vivo. Metodologia ativa com material didático exclusivo.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <Button className="bg-trilingue-purple hover:bg-trilingue-purple/80 text-white px-8 py-6 text-lg">
@@ -31,7 +31,7 @@ const Hero = () => {
                 <ul className="space-y-3">
                   <li className="flex items-start">
                     <div className="h-6 w-6 rounded-full bg-trilingue-mint flex items-center justify-center text-trilingue-gray mr-3">✓</div>
-                    <span>Aulas 100% online e personalizadas</span>
+                    <span>Aulas 100% online e ao vivo</span>
                   </li>
                   <li className="flex items-start">
                     <div className="h-6 w-6 rounded-full bg-trilingue-orange flex items-center justify-center text-white mr-3">✓</div>
@@ -39,7 +39,7 @@ const Hero = () => {
                   </li>
                   <li className="flex items-start">
                     <div className="h-6 w-6 rounded-full bg-trilingue-mint flex items-center justify-center text-trilingue-gray mr-3">✓</div>
-                    <span>Material didático exclusivo</span>
+                    <span>Material didático autoral</span>
                   </li>
                   <li className="flex items-start">
                     <div className="h-6 w-6 rounded-full bg-trilingue-orange flex items-center justify-center text-white mr-3">✓</div>
