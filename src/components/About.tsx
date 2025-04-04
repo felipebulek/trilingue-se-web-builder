@@ -30,7 +30,7 @@ const About = () => {
           
           <div className="space-y-6">
             <div>
-              <h3 className="text-2xl font-semibold text-trilingue-purple mb-3">Metodologia Personalizada</h3>
+              <h3 className="text-2xl font-semibold text-trilingue-purple mb-3">Metodologia Ativa</h3>
               <p className="text-trilingue-gray">
                 Cada aluno aprende de forma diferente, por isso nossos cursos são totalmente adaptados ao seu ritmo, objetivos e estilo de aprendizado. Trabalhamos com material exclusivo e as aulas são planejadas de acordo com suas necessidades específicas.
               </p>
