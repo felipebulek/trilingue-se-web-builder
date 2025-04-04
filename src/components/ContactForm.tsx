@@ -45,7 +45,7 @@ const ContactForm = () => {
     {
       name: 'WhatsApp',
       icon: <MessageCircle className="h-6 w-6" />,
-      url: 'https://wa.me/5500000000000', // Replace with actual number
+      url: 'https://wa.me/5541997081810', // Replace with actual number
       color: 'bg-green-500 hover:bg-green-600'
     },
     {
@@ -57,7 +57,7 @@ const ContactForm = () => {
     {
       name: 'LinkedIn',
       icon: <Linkedin className="h-6 w-6" />,
-      url: 'https://linkedin.com/in/ana-bulek', // Replace with actual profile
+      url: 'https://linkedin.com/in/anabulek', // Replace with actual profile
       color: 'bg-blue-600 hover:bg-blue-700'
     }
   ];
